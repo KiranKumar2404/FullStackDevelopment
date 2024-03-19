@@ -1,0 +1,191 @@
+.app {
+    padding: 20px;
+    overflow-x: hidden;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: -30px;
+  }
+  
+  .filter {
+    margin-top: 90px;
+    top:0px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .filter input[type="text"] {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+  }
+  
+  .colleges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: hidden;
+  }
+  
+  .college-card {
+    background-color: #f0f0f0;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1 1 28%;
+    margin-top: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+  }
+  
+  .college-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .college-info {
+    margin-bottom: 5px;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .college-card {
+      flex: 1 1 80%;
+      margin-top: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .pagination button {
+        padding: 5px 10px;
+        margin: 0 5px;
+        margin-top: -10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .filter {
+        margin-top: 90px;
+        top:0px;
+        left: 20px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+  }
+  
+  @media (max-width: 1366px) {
+    .college-card {
+      margin-top: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .pagination button {
+        padding: 5px 10px;
+        margin: 0 5px;
+        margin-top: -10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .filter {
+        margin-top: 90px;
+        top:0px;
+        left: 300px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+  }
+  
+  @media (min-width: 412px) {
+    .college-card {
+      margin-top: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .pagination button {
+        padding: 5px 10px;
+        margin: 0 5px;
+        margin-top: -10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .filter {
+        margin-top: 90px;
+        top:0px;
+        left: 00px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+  }
+  
+  @media (min-width: 360px) {
+    .college-card {
+      margin-top: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .pagination button {
+        padding: 5px 10px;
+        margin: 0 5px;
+        margin-top: -10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .filter {
+        margin-top: 90px;
+        top:0px;
+        left: 00px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .app {
+      padding: 0px;
+      overflow-x: hidden;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      top: -30px;
+      min-height: 210vh;
+  }
+  }

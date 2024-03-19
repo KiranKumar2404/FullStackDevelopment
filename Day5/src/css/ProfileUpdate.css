@@ -1,0 +1,52 @@
+.profile-update-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .profile-update-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-update-container form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .profile-update-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .profile-update-container input[type='text'],
+  .profile-update-container input[type='number'],
+  .profile-update-container input[type='date'],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .profile-update-container button[type='submit'] {
+    grid-column: span 2;
+    width: 100%;
+    padding: 10px;
+    background: yellow;
+    background: -webkit-linear-gradient(to right, yellow, yellow);
+    background: linear-gradient(to right, rgb(255, 213, 0), rgb(255, 190, 116));    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-update-container button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
