@@ -1,0 +1,269 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 20px;
+  height: 50px;
+  background-color: yellow; 
+  color: #000000; 
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 20px;
+  height: 50px;
+  background-color: yellow; 
+  color: #000000; 
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar-left img {
+  height: 40px;
+  width: 40px;
+}
+.navbar-left {
+  display: flex;
+  flex-wrap: wrap;
+  font-family:'Times New Roman', Times, serif;
+}
+.navbar-right {
+  display: flex;
+  margin-right: 25px;
+  flex-wrap: wrap;
+}
+.right {
+  display: flex;
+  margin-right: 25px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  color: #000000; 
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: color 0.3s;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn2 {
+  background-color: transparent;
+  border: none;
+  color: #000000; 
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 16px;
+  transition: color 0.3s;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn1 {
+  background-color: transparent;
+  border: none;
+  margin-top:7px;
+  color: #000000; 
+  cursor: pointer;
+  font-size: 30px;
+  padding: 2px 12px;
+  transition: color 0.3s;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn:hover {
+  color: #ff001e;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right:40px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-item {
+  color: #000000;
+  padding: 12px 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modal-buttons {
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-buttons button:first-child {
+  background-color: yellow;
+  color: #000000;
+}
+
+.modal-buttons button:last-child {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.profile-modal {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.profile-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.profile-modal p {
+  text-align: left;
+}
+
+.profile-model-container img{
+  margin: 10px;
+  width: 100px;
+  height: 80px;
+  text-align:center;
+  color: bisque;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+
+.profile-modal-content h2 {
+  margin-top: 0;
+}
+
+.profile-modal-content p {
+  margin: 10px 0;
+}
+
+.profile-modal-content button {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: yellow;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-modal-content .close {
+  margin-top: 20px;
+  padding: 8px 16px;
+  margin-right: 100px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 932px) {
+  .navbar-left {
+    display: none;
+  }
+
+  .navbar-right {
+    flex: 1;
+  }
+
+  .navbar-right button {
+    display: inline-block; 
+    font-size: 15px;
+  }
+  .navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px;
+    background-color: yellow;
+    color: #000000;
+    height: 30px;
+    width: 97.7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+}
+@media (max-width: 640px) {
+  .navbar-left {
+    display: none;
+  }
+
+  .navbar-right {
+    flex: 1; 
+    margin-left: 200px;
+  }
+
+  .navbar-right button {
+    display: inline-block;
+    font-size: 10px; 
+  }
+  .navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px;
+    background-color: yellow;
+    color: #000000;
+    height: 30px;
+    width: 97.7%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+}
+
