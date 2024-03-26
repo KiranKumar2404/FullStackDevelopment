@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "college.properties.secret_key",
+    "type": "java.lang.String",
+    "description": "A description for 'college.properties.secret_key'"
+  },
+  {
+    "name": "college.properties.expiration",
+    "type": "java.lang.String",
+    "description": "A description for 'college.properties.expiration'"
+  },
+  {
+    "name": "college.jwt.secret_key",
+    "type": "java.lang.String",
+    "description": "A description for 'college.jwt.secret_key'"
+  },
+  {
+    "name": "college.jwt.secret_key",
+    "type": "java.lang.String",
+    "description": "A description for 'college.jwt.secret_key'"
+  },
+  {
+    "name": "college.swagger.contact.name",
+    "type": "java.lang.String",
+    "description": "A description for 'college.swagger.contact.name'"
+  },
+  {
+    "name": "college.swagger.contact.email",
+    "type": "java.lang.String",
+    "description": "A description for 'college.swagger.contact.email'"
+  },
+  {
+    "name": "college.swagger.contact.url",
+    "type": "java.lang.String",
+    "description": "A description for 'college.swagger.contact.url'"
+  }
+]}
